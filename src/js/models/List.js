@@ -12,6 +12,7 @@ class List{
             ingredient
         }
         this.items.push(item);
+        return item
     }
 
     deleteItem(id){
